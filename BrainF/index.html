@@ -1,0 +1,27 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <title>myBrainF***</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+    <body>
+        <font style="color: white; font-size: 300%;">Brain F*** Online</font><br>
+        <font style="font-size: 150%;">Brain F*** is a Simple, Esoteric Language. Simple in it's rules, that is.</font><br>
+        <h3>About Brain F*** (or BF) :</h3>
+        <div>
+            + adds one to current tile.<br>
+            - substracts one to current tile.<br>
+            > goes 1 tile right.<br>
+            < goes 1 tile left.<br>
+            ! outputs the current tile.<br>
+            ? sets the current tile to user input.<br>
+        </div>
+        <h3>BF Station Interpreter :</h3>
+        <button onclick='runBF()' style='color: green;'>Run</button> Cap:<input id='cap' value='999' style="width: 90px;" ></input><br><br>
+        <input id='code' value="(4)>>+>+>>(3)<<[<]<[->>[>]>+<<[<]<]@>>[>]>!<<[<]<!" style="width: 475px;" />
+        <br><div style="padding: 3px;" id='output'>
+        <font style="font-size: 150%;">Output</font>
+        </div>
+        <script src='script.js'></script>
+    </body>
+</html>
